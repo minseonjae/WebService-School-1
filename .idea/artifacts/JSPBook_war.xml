@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="JSPBook:war">
+    <output-path>$PROJECT_DIR$/JSPBook/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>JSPBook</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="JSPBook-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="JSPBook:war exploded" />
+    </root>
+  </artifact>
+</component>
